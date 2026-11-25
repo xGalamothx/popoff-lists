@@ -3,6 +3,13 @@
   "format": 1,
   "packages": [
     {
+      "file": "25112026.0933C.popoff",
+      "listVersion": 7,
+      "updated": "2026-11-25",
+      "minExtension": "1.0.10",
+      "url": "https://raw.githubusercontent.com/xGalamothx/popoff-lists/main/25112026.0933C.popoff"
+    },
+    {
       "file": "25112026.0611C.popoff",
       "listVersion": 6,
       "updated": "2026-11-25",
