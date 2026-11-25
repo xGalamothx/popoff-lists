@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="PopOff es un proyecto independiente para reducir ventanas emergentes y redirecciones molestas en Brave.">
+  <title>PopOff — Navega con más tranquilidad</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%237c5cff'/%3E%3Cpath d='M32 8 49 15v15c0 12-7 20-17 26C22 50 15 42 15 30V15z' fill='none' stroke='white' stroke-width='4'/%3E%3Cpath d='m23 32 6 6 13-14' fill='none' stroke='white' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="PopOff inicio"><span class="brand-mark">P</span><span>PopOff<span class="brand-dot">.</span></span></a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Navegación principal">
+      <a class="active" href="index.html">Inicio</a><a href="docs.html">Documentación</a><a href="privacy.html">Privacidad</a><a href="contribute.html">Participar</a>
+      <a class="nav-support" href="https://ko-fi.com/carlosarredondo24" target="_blank" rel="noopener noreferrer">Invítame a un café ☕</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> Proyecto independiente · En desarrollo</div>
+        <h1>Menos interrupciones.<br><span class="gradient-text">Más control al navegar.</span></h1>
+        <p class="hero-lead">PopOff es un proyecto personal para reducir ventanas emergentes, pestañas inesperadas y redirecciones molestas en Brave. Nace de la curiosidad, el aprendizaje y las ganas de construir algo útil para otras personas.</p>
+        <div class="hero-actions"><a class="button button-primary" href="docs.html">Conocer PopOff <span>↗</span></a><a class="button button-quiet" href="#historia">La historia del proyecto</a></div>
+        <div class="hero-note"><span class="check">✓</span> Gratuito · Independiente · Sin telemetría integrada</div>
+      </div>
+      <div class="hero-art" aria-label="Ilustración abstracta de protección digital">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="glass-card card-back"><span class="tiny-label">NAVEGACIÓN</span><div class="fake-lines"><i></i><i></i><i></i></div><span class="fake-pill">Control local</span></div>
+        <div class="shield"><svg viewBox="0 0 120 140" role="img" aria-label="Escudo"><path d="M60 7 105 25v39c0 31-18 53-45 69C33 117 15 95 15 64V25z" fill="none" stroke="url(#g)" stroke-width="7" stroke-linejoin="round"/><path d="m39 68 14 14 30-34" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="g" x1="15" y1="7" x2="105" y2="133"><stop stop-color="#a78bfa"/><stop offset="1" stop-color="#35d6c5"/></linearGradient></defs></svg></div>
+        <div class="status-chip"><span class="status-dot"></span> Protección en evolución</div>
+        <div class="spark spark-one">✦</div><div class="spark spark-two">✧</div>
+      </div>
+    </section>
+    <section class="wrap section">
+      <div class="section-heading"><span class="kicker">QUÉ BUSCA HACER</span><h2>Una navegación menos invasiva</h2><p>Herramientas prácticas, decisiones transparentes y mejoras construidas paso a paso.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card"><span class="feature-icon purple">↗</span><h3>Control de ventanas</h3><p>Ayuda a frenar pop-ups, pestañas inesperadas y algunos intentos de redirección.</p></article>
+        <article class="feature-card"><span class="feature-icon teal">⌁</span><h3>Protección configurable</h3><p>Combina ajustes personales con listas de protección que se pueden actualizar.</p></article>
+        <article class="feature-card"><span class="feature-icon amber">◈</span><h3>Privacidad primero</h3><p>La configuración y el registro se mantienen localmente. PopOff no incorpora analítica ni publicidad.</p></article>
+      </div>
+    </section>
+    <section class="story-section" id="historia">
+      <div class="wrap story-grid">
+        <div><span class="kicker">DE UNA IDEA A UN PROYECTO</span><h2>Aprender construyendo.</h2></div>
+        <div class="story-copy"><p>PopOff empezó como una solución a un problema cotidiano: navegar por algunas páginas sin que cada clic terminara abriendo otra ventana. Lo que parecía una pequeña mejora se convirtió en un reto de programación, pruebas y aprendizaje continuo.</p><p>Su creador, Carlos Arredondo, está dando sus primeros pasos en programación y quiere continuar su formación en Desarrollo de Software o un área relacionada. Este proyecto es una forma de aprender haciendo y, si es posible, compartir lo aprendido con la comunidad.</p><a class="text-link" href="docs.html">Conoce el enfoque técnico <span>→</span></a></div>
+      </div>
+    </section>
+    <section class="wrap support-section">
+      <div class="support-card"><div class="coffee-orb">☕</div><div><span class="kicker">APOYO VOLUNTARIO</span><h2>¿PopOff te ha servido?</h2><p>Si la herramienta o su documentación te resultan útiles, puedes invitarme a un café. Cualquier aporte es voluntario y ayuda a mantener la motivación para seguir aprendiendo y mejorando.</p></div><a class="button button-coffee" href="https://ko-fi.com/carlosarredondo24" target="_blank" rel="noopener noreferrer">Apoyar en Ko-fi ↗</a></div>
+      <p class="support-footnote">PopOff es gratuito. Donar no desbloquea funciones ni ofrece ventajas especiales.</p>
+    </section>
+  </main>
+  <footer class="site-footer wrap"><a class="brand" href="index.html"><span class="brand-mark">P</span><span>PopOff<span class="brand-dot">.</span></span></a><span>Hecho con curiosidad y ganas de aprender.</span><span>© <span data-year></span> Carlos Arredondo</span></footer>
+</body>
+</html>
